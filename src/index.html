@@ -1,14 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
+      <h1>CUMEX CIPHER</h1>
+      <h1>Cifrado de Credenciales</h1>
+      <!-- <div id="options">
+        <input type="submit" id="encodebtn" value="Cifrar"><br/>
+        <input type="submit" id="decodebtn" value="Descifrar"><br/>
+      </div> -->
+       <div id="viewOptions" class="data"> 
+         <!-- <form action=""> -->
+          <p>Número de desplazamiento</p>
+          <input id="offset" type="text" class="field" size="4"><br>
+          <p>CURP</p>
+          <input id="string" type="text" class="field"><br>
+          <div id="options">
+            <p class="center-content">
+              <input type="submit" class="btn btn-green" id="encodebtn" value="Cifrar"><br/>
+            </p>
+            <p class="center-content">
+              <input type="submit" class="btn btn-green" id="decodebtn" value="Descifrar"><br/>
+            </p>
+          </div>
+         <!-- </form> -->
+      </div>
+      <div id="viewDate" class="data" style="display: none">
+        <h1>Tus Datos:</h1>
+        <p>CURP</p>
+        <div class="curp"></div><br/>
+        <p>
+          <input type="submit" class="btn btn-green" id="btnReturn" value="Regresar"><br/>
+        </p>
+      </div>
+    </div> 
+    <script  type="module" src="index.js"></script>
+    <!-- <script  type="text/javascript" src="options.js"></script> -->
   </body>
 </html>
