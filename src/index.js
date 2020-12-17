@@ -1,8 +1,5 @@
 import cipher from './cipher.js';
 
-//cipher.encode(3,"ABC");
-//cipher.decode(3,"DEF");
-
 document.querySelector("#encodebtn").addEventListener('click', function() {
     //let offsetTxt=parseInt(document.getElementById('offset').value);
     let offsetTxt=parseInt(document.querySelector("#offset").value); 
