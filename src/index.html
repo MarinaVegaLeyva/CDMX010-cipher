@@ -7,18 +7,14 @@
   </head>
   <body>
     <div id="root">
-      <h1>CUMEX CIPHER</h1>
-      <h1>Cifrado de Credenciales</h1>
-      <!-- <div id="options">
-        <input type="submit" id="encodebtn" value="Cifrar"><br/>
-        <input type="submit" id="decodebtn" value="Descifrar"><br/>
-      </div> -->
+      <h1 class="title">CUMEX CIPHER</h1>
        <div id="viewOptions" class="data"> 
-         <!-- <form action=""> -->
-          <p>Número de desplazamiento</p>
-          <input id="offset" type="text" class="field" size="4"><br>
-          <p>CURP</p>
-          <input id="string" type="text" class="field"><br>
+          <p>Cifrado de Credenciales</p>
+          <input id="offset" type="text" class="field" size="4" placeholder="Número de desplazamiento"><br><br>
+          <input id="name" type="text" class="field" placeholder="Nombre"><br><br>
+          <input id="lastName" type="text" class="field" placeholder="Primer apellido:"><br><br>
+          <input id="secondLastName" type="text" class="field" placeholder="Segundo apellido:"><br><br>
+          <input id="string" type="text" class="field" placeholder="CURP"><br><br>
           <div id="options">
             <p class="center-content">
               <input type="submit" class="btn btn-green" id="encodebtn" value="Cifrar"><br/>
@@ -27,18 +23,21 @@
               <input type="submit" class="btn btn-green" id="decodebtn" value="Descifrar"><br/>
             </p>
           </div>
-         <!-- </form> -->
       </div>
       <div id="viewDate" class="data" style="display: none">
         <h1>Tus Datos:</h1>
-        <p>CURP</p>
+        <p>Nombre</p>
+        <div class="divName"></div><br/>
+        <p>Primer Apellido</p>
+        <div class="divLastName"></div><br/>
+          <p>Segundo Apellido</p>
+        <div class="divSecLastName"></div><br/>
+          <p>CURP</p>
         <div class="curp"></div><br/>
-        <p>
           <input type="submit" class="btn btn-green" id="btnReturn" value="Regresar"><br/>
-        </p>
       </div>
+      <div class="footer"></div>
     </div> 
     <script  type="module" src="index.js"></script>
-    <!-- <script  type="text/javascript" src="options.js"></script> -->
   </body>
 </html>

@@ -339,3 +339,31 @@ Esta sección está para ayudarte a llevar una guia de lo que vas completando.
 * Cifra/descifra minúsculas
 * Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * Permite usar un `offset` negativo.
+
+
+Definición del producto
+Realizar un Kiosco generador de credenciales, de acuerdo a los datos del alumno (cifrados)
+Objetivo: Cifrar y descifrar datos personales de alumnos para la creación de credencial escolar.
+•	¿Cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz?
+De acuerdo con experiencias como alumnos, no siempre se tiene acceso eficiente para solicitar una credencial.
+•	Quiénes son los principales usuarios de producto.
+Alumnos de Secundaria y preparatoria.
+•	Cuáles son los objetivos de estos usuarios en relación con tu producto.
+Obtener una credencial en el tiempo que estos lo necesiten.
+Liberar la carga administrativa de la institución 
+•	Cómo crees que el producto que estás creando está resolviendo sus problemas.
+Al tener una maquina expendedora de credenciales, no necesitas hacer trámites administrativos, además con el cifrado de datos, únicamente la persona correcta podrá generar su propia credencial.
+Para dar inicio al proyecto se elaboró un plan de acción tomando en cuenta las siguientes consideraciones:
+ 
+Se planifico en la pantalla principal las opciones de codificar o decodificar 
+
+Se diseño la vista de cifrar y descifrar
+ 
+Se diseño la vista de resultados
+ 
+El producto final se concluyo con la siguiente interfaz.
+Pantalla principal con datos del usuario para ser cifrados o descifrados según sea el caso que el usuario necesite.
+ 
+Pantalla de resultados con opcion a regresar a la vista principal
+ 
+
